@@ -9,7 +9,7 @@ const ChildComponent = ({ message, onRespond }) => {
   return (
     <div className="child">
       <h3>ChildComponent</h3>
-      <p>Hola soy el Hijo!</p>
+      <p>Hola, como estas? soy el Hijo!</p>
       <p>{message}</p>
       <button onClick={handleClick} >Enviar respuesta al padre</button>
     </div>
